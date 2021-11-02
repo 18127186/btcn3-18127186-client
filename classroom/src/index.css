@@ -1,0 +1,37 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+  
+ol, ul {
+  padding-left: 30px;
+}
+  
+.class {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  min-width: 15%;
+  max-width: 15%;
+  height: 5rem;
+}
+  
+.game {
+  display: flex;
+  flex-direction: row;
+}
+.row {
+  margin-left: 10rem !important;
+  margin-right:10rem !important;
+  margin-top:10rem !important;
+}
+.btn-create {
+  margin-top:10rem !important;
+}
