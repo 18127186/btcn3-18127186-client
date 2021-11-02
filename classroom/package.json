@@ -36,6 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://btcn3-18127186-server.herokuapp.com/"
+  }
 }
