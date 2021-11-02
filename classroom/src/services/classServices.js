@@ -9,7 +9,7 @@ export async function getAllClasses() {
     
 }
 
-export async function createUser(data) {
+export async function createClass(data) {
     const response = await fetch(`/classes`, {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
