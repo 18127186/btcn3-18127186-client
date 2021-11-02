@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
-import {  createUser } from '../../services/classServices'
+import {  createClass } from '../../services/classServices'
 const Form = () => {
     
     const [show, setShow] = useState(false);
@@ -10,7 +10,7 @@ const Form = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const handleAdd = () => {
-        createUser(value);
+        createClass(value);
         handleClose();
     }
     const handleChange = (event) => {
