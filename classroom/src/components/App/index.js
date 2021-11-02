@@ -17,9 +17,10 @@ const App = (props) => {
   }
   fetchAllClasses();
   return (
+    <div>
+      <h1 className="text-center md-5">List Class</h1>
+      <Form />
       <div className="game">
-        
-        <Form />
         <div className="game-board w-100">
           <ClassesBoard
             classes={classes}
@@ -28,6 +29,7 @@ const App = (props) => {
           />
         </div>
       </div>
+    </div>
   );
   
 };
