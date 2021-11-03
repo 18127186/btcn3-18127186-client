@@ -38,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3000/"
+  "proxy": "http://btcn3-18127186-server.herokuapp.com/"
 }
