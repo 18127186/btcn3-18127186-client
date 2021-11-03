@@ -1,7 +1,7 @@
 export async function getAllClasses() {
 
     try{
-        const response = await fetch('https://btcn3-18127186-server.herokuapp.com/classes', {
+        const response = await fetch('/classes', {
             method: 'GET',
             headers: {'Content-Type': 'application/json'}
         });
@@ -13,7 +13,7 @@ export async function getAllClasses() {
 }
 
 export async function createClass(data) {
-    const response = await fetch(`https://btcn3-18127186-server.herokuapp.com/classes`, {
+    const response = await fetch(`/classes`, {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({name: data})
