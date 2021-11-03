@@ -17,8 +17,8 @@ const Form = () => {
         setValue(event.target.value);
     }
     return (
-        <div class="text-center">
-          <button class="btn-create" onClick={handleShow}>
+        <div className="text-center">
+          <button className="btn-create" onClick={handleShow}>
             New Class
           </button>
           
